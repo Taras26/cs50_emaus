@@ -1,0 +1,222 @@
+body {
+    margin: 0;
+    background-color: white;
+    font-family: 'TildaSans', Arial, sans-serif;
+}
+
+@font-face {
+    font-family: "TildaSans";
+    src: url(https://static.tildacdn.com/fonts/tildasans/TildaSans-VF.woff2);
+}
+
+.selector-main {
+    position: sticky;
+    top: 0;
+    z-index: 999999;
+    min-height: 2em;
+    margin-top: 0px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 3px 8px 3px rgba(0, 0, 0, 0.25);
+}
+
+.selector-top {
+    display: flex;
+    height: 100%;
+    width: 70%;
+    margin: auto;
+    align-items: center;
+}
+
+.menu {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    width: 100%;
+    font-size: 22px;
+    text-align: center;
+    display: inline-block;
+    padding: 20px 0px;
+}
+
+.menu:hover {
+    color: #9ab960;
+    transition: 0.2s;
+}
+
+.video-div {
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    box-shadow: 0px 3px 8px 3px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    height: 700px;
+}
+
+.video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    opacity: 1;
+    position: relative;
+}
+
+.welcome {
+    margin: 0 auto;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+}
+
+.main-text {
+
+    font-size: 48px;
+    color: white;
+    letter-spacing: 3px;
+}
+
+.btn {
+
+    font-size: 20px;
+    letter-spacing: 2px;
+    background-color: white;
+    border-width: 0px;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    padding: 3%;
+}
+
+.price:hover {
+    color: #9ab960;
+    transition: 0.2s;
+}
+
+.about {
+    margin: 25%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+.fsp {
+    font-size: 20px;
+}
+
+.just {
+    text-align: justify;
+}
+
+li.bar {
+    display: none;
+}
+
+@media(max-width:426px) {
+    .selector-top {
+        display: none;
+    }
+
+    li.bar {
+        display: block;
+    }
+
+    li.bar:hover .selector-top {
+        display: block;
+    }
+}
+
+.price-main {
+    background-color: rgb(43, 89, 158);
+    ;
+}
+
+.price-main-text {
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    letter-spacing: 5px;
+}
+
+.pmt {
+    padding-top: 50px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.price-main-text1 {
+    text-align: center;
+    color: white;
+    font-size: 42px;
+    letter-spacing: 5px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.line1 {
+    width: 42px;
+    height: 5px;
+    position: relative;
+    margin: 0px 0px 0px 0;
+    box-sizing: border-box;
+    transform-origin: center 1.5px;
+    border-top: solid white;
+    margin: auto;
+}
+
+.price-ab {
+    font-size: 24px;
+}
+
+.ul1 {
+    margin: 0 auto;
+    display: table;
+    padding-bottom: 30px;
+}
+
+.ul1 ul {
+    color: white;
+    font-size: 20px;
+}
+
+.ul1 ul li {
+    padding: 5px;
+
+}
+
+
+.colblack {
+    color: black;
+}
+
+.insta,
+.phone,
+.faceb {
+    display: flex;
+    text-align: left;
+}
+
+.insta1,
+.phone1,
+.faceb1 {
+    display: flex;
+}
+
+.insta1 img,
+.phone1 img,
+.faceb1 img {
+    padding-right: 30px;
+}
+
+.item{
+    object-fit: cover;
+    object-position: center center;
+    opacity: 1;
+    position: relative;
+}
